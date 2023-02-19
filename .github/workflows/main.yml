@@ -19,9 +19,8 @@
 # variable: ${{ github.variables_name }}
 
 name: github action ofr
-on:
-push:
-  breaches: [master]
+on: push
+  
   jobs:
   build:
     runs-on: ubuntu-latest
