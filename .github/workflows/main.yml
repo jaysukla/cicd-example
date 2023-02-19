@@ -18,7 +18,7 @@
 # value: ${{ env.value }}
 # variable: ${{ github.variables_name }}
 
-name: github action ofr
+name: Github action ofr
 on: push
   
   jobs:
