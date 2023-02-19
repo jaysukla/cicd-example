@@ -31,7 +31,7 @@
 #       - run: echo "Hello world"
 
 name: Sync with S3
-on: push
+on: push: breaches: [master]
 jobs:
   sync:
     runs-on: ubuntu-latest
